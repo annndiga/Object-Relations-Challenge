@@ -18,5 +18,7 @@ class Author:
         return new_magazine
 
     def __str__(self):
+        article_details = "\n".join(str(article) for article in self._articles)
         magazine_details = "\n".join(str(magazine) for magazine in self._magazines)
-        return f"Author: {self.name}\nMagazines:\n{magazine_details}"
+        return f"Author: {self.name}\nArticles:\n{article_details}\nMagazines:\n{magazine_details}"
+        
