@@ -23,7 +23,7 @@ The project is organized into the following structure:
 
 2. cd  to the right directory for instance in this case;
           
-           "/Object-Relations-Articles/lib'
+           "/Object-Relations-Articles/lib"
 
 3. Install the required dependencies:
 - Copy code
