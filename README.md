@@ -18,23 +18,24 @@ The project is organized into the following structure:
 ## Getting Started
 
 1. Clone the repository to your local machine:
-Copy code
+- Copy code
            ` git clone git@github.com:annndiga/Object-Relations-Challenge.git`
 
 2. cd  to the right directory for instance in this case;
-           /Object-Relations-Articles/lib$
+          
+           "/Object-Relations-Articles/lib'
 
 3. Install the required dependencies:
-Copy code
+- Copy code
             `pipenv install`
             `pipenv shell`
 
 4. Run the main script to see a demonstration of the classes in action:
-Copy code
+- Copy code
             `python main.py`
 
 5. Running Tests
-To run the unit tests, navigate to the test directory and use the following command:
+- To run the unit tests, navigate to the test directory and use the following command:
 Copy code
             `sudo apt install python3-pip` 
             `pip3 install pytest`
