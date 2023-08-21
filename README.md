@@ -36,6 +36,8 @@ Copy code
 5. Running Tests
 To run the unit tests, navigate to the test directory and use the following command:
 Copy code
+            `sudo apt install python3-pip` 
+            `pip3 install pytest`
             `pytest -x` or `pytest` 
 
 ## Project Overview
