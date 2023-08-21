@@ -4,9 +4,9 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
-from lib.author import Author
-from lib.magazine import Magazine
-from lib.article import Article
+from magazine.author import Author
+from magazine.magazine import Magazine
+from magazine.article import Article
 
 # Create authors
 author1 = Author("Brandy Makena")

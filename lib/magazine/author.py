@@ -1,5 +1,5 @@
-from lib.article import Article
-from lib.magazine import Magazine
+from magazine.article import Article
+from magazine.magazine import Magazine
 
 class Author:
     def __init__(self,name):
@@ -21,4 +21,3 @@ class Author:
         article_details = "\n".join(str(article) for article in self._articles)
         magazine_details = "\n".join(str(magazine) for magazine in self._magazines)
         return f"Author: {self.name}\nArticles:\n{article_details}\nMagazines:\n{magazine_details}"
-        
